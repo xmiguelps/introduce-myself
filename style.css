@@ -7,15 +7,51 @@
 }
 
 header {
-    background-color: skyblue;
+    height: 100%;
+    width: 100%;
+    background-image: url(imagens/header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
     padding: 10px;
     border: 5px rgb(5, 90, 132) solid;
 }
 
+header > h1 {
+    padding-top: 50px;
+}
+
+header > p {
+    margin-top: 30px;
+}
+
 main {
     background-color: lightyellow;
-    border: 5px solid rgb(168, 162, 39);
+}
+
+section#quem-eu-sou {
+    display: none;
+}
+
+section#nick {
+    display: none;               
+}
+
+section#gosto-de-fazer {
+    display: none;
+} 
+
+section#futuro {
+    display: none;
+}
+
+section#sonhos {
+    display: none;
+}
+
+section#curiosidades {
+    display: none;
 }
 
 main p {
@@ -31,7 +67,8 @@ main ul {
 footer {
     background-color: gray;
     color: white;
-    padding: 10px;
+    padding: 4px;
+    font-size: 0.9em;
     text-align: center;
     border: 5px solid rgb(51, 51, 51);
 }

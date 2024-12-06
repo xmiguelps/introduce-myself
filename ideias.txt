@@ -1,0 +1,3 @@
+tela todo com o header, com o fundo dos horarios e tals e as opções, quando clicar na opção, manda pra outro site
+
+colocar horario em algum canto da tela
