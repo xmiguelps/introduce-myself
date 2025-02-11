@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 96.5vh;
+    background-image: url(fundo-site.jpg);
+    background-size: cover;
+}
+
+footer {
+    color: white;
+    width: 100vw;
+    height: 3.5vh;
+    background-color: rgb(78, 78, 78);
+    text-align: center;
+    padding: 2px;
+}
