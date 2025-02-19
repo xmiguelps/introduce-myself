@@ -11,7 +11,7 @@ main {
     display: flex;   
     width: 100vw;
     height: 100vh;
-    background-image: url(fundo-site.jpg);
+    background-image: url(imagens/fundo-site.jpg);
     background-size: cover;
 }
 
@@ -52,29 +52,70 @@ footer {
     padding: 2px;
 }
 
-
-menu {
+.games {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 55%;
     top: 25%;
-}
-
-.gif_games {
     transition: 0.5s;
-    box-shadow: 1px 1px 20px 7px white;
+    box-shadow: 1px 1px 20px 7px #550245;
     border-radius: 10px;
-    height: 50px;
+    height: 60px;
 }
 
-.gif_games:hover {
+.games:hover {
+    box-shadow: 1px 1px 20px 7px #99047b;
+    transition: 0.5s;
+    height: 80px;
+}
+
+.gym {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 62%;
+    top: 35%;
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px 7px rgb(56, 56, 56);
+    border-radius: 10px;
+    height: 60px;
+}
+
+.gym:hover {
+    box-shadow: 1px 1px 20px 10px rgb(83, 83, 83);
+    transition: 0.5s;
+    height: 80px;
+} 
+
+.program {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 75%;
+    top: 35%;
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px 7px rgb(56, 56, 56);
+    border-radius: 10px;
+    height: 60px;
+}
+
+.program:hover {
     box-shadow: 1px 1px 20px 7px rgb(136, 166, 221);
     transition: 0.5s;
-    height: 70px;
+    height: 80px;
 }
 
-/*#foot_div {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-end;
-}*/
+.sonhos {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 62%;
+    top: 50%;
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px 7px rgb(206, 191, 54);
+    border-radius: 10px;
+    height: 60px;
+}
+
+.sonhos:hover {
+    box-shadow: 1px 1px 20px 7px rgb(160, 148, 42);
+    transition: 0.5s;
+    height: 80px;
+}
