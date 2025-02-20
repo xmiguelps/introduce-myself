@@ -72,8 +72,8 @@ footer {
 .gym {
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 62%;
-    top: 35%;
+    left: 69%;
+    top: 40%;
     transition: 0.5s;
     box-shadow: 1px 1px 20px 7px rgb(56, 56, 56);
     border-radius: 10px;
@@ -89,16 +89,16 @@ footer {
 .program {
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 75%;
-    top: 35%;
+    left: 79.5%;
+    top: 26%;
     transition: 0.5s;
-    box-shadow: 1px 1px 20px 7px rgb(56, 56, 56);
+    box-shadow: 1px 1px 20px 7px rgb(20, 51, 16);
     border-radius: 10px;
     height: 60px;
 }
 
 .program:hover {
-    box-shadow: 1px 1px 20px 7px rgb(136, 166, 221);
+    box-shadow: 1px 1px 20px 7px rgb(58, 150, 46);
     transition: 0.5s;
     height: 80px;
 }
@@ -106,16 +106,16 @@ footer {
 .sonhos {
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 62%;
-    top: 50%;
+    left: 64.5%;
+    top: 58%;
     transition: 0.5s;
-    box-shadow: 1px 1px 20px 7px rgb(206, 191, 54);
+    box-shadow: 1px 1px 20px 7px rgb(124, 115, 32);
     border-radius: 10px;
     height: 60px;
 }
 
 .sonhos:hover {
-    box-shadow: 1px 1px 20px 7px rgb(160, 148, 42);
+    box-shadow: 1px 1px 20px 7px rgb(230, 213, 61);
     transition: 0.5s;
     height: 80px;
 }

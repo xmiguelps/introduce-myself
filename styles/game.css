@@ -33,3 +33,16 @@ p {
     margin-top: 20px;
     text-indent: 20px;
 }
+
+p#tutorial {
+    text-align: center;
+}
+
+#voltar {
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 15px;
+    background-color: #494949;
+}
+

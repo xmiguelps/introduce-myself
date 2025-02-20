@@ -13,14 +13,14 @@ main {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(to bottom, #000000, #351d49, #232274);
+    background: linear-gradient(to bottom, #ebecb4, #e2e470, #ebecb7);
 }
 
 section {
     padding: 20px;
     color: white;
     border-radius: 10px;
-    background-color: #333333;
+    background-color: lightgoldenrodyellow;
     width: 850px;
     height: 500px;
 }
@@ -32,4 +32,12 @@ h1 {
 p {
     margin-top: 20px;
     text-indent: 20px;
+}
+
+#voltar {
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 15px;
+    background-color: #494949;
 }
