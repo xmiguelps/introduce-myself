@@ -17,12 +17,14 @@ main {
 }
 
 section {
+    display: flex;
+    flex-flow: column nowrap;
     padding: 20px;
     color: white;
     border-radius: 10px;
     background-color: #333333;
     width: 850px;
-    height: 500px;
+    min-height: 550px;
 }
 
 h1 {
@@ -38,6 +40,59 @@ p#tutorial {
     text-align: center;
 }
 
+#games {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.div_img {
+    position: absolute;
+    display: inline;
+    background-color: #1b1b1b;
+    padding: 10px;
+    border-radius: 30px;
+    width: 170px;
+    height: 250px;
+    background-size: 260px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.5s;
+}
+
+#hk {
+    left: 25%;
+    top: 37%;
+    background-image: url(../imagens/hollow-knight.jpg);
+}
+
+#hk:active {
+    transition: all 1s;
+    transform: translate(-100px, -100px);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(../imagens/hollow-knight-maior.jpg);
+    background-size: 530px;
+}
+
+/*.big_img {
+    display: none;
+    transition: width 2s, height 4s;
+}
+
+.big_img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 20px;
+}*/
+
 #voltar {
     border-radius: 10px;
     color: white;
@@ -45,4 +100,3 @@ p#tutorial {
     padding: 15px;
     background-color: #494949;
 }
-
