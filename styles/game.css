@@ -51,7 +51,7 @@ p#tutorial {
 .div_img {
     position: absolute;
     display: inline;
-    background-color: #1b1b1b;
+    background-image: none;
     padding: 10px;
     border-radius: 30px;
     width: 170px;
@@ -63,35 +63,29 @@ p#tutorial {
 }
 
 #hk {
-    left: 25%;
-    top: 37%;
     background-image: url(../imagens/hollow-knight.jpg);
+    left: 350px;
+    top: 250px;
 }
 
-#hk:active {
-    transition: all 1s;
-    transform: translate(-100px, -100px);
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
-    background-image: url(../imagens/hollow-knight-maior.jpg);
-    background-size: 530px;
+#roblox { /*tentar deixar centralizado e alterado pro lado (com todos) */
+    left: 590px;
+    top: 250px;
+    background-image: url(../imagens/roblox.png);
 }
 
-/*.big_img {
-    display: none;
-    transition: width 2s, height 4s;
+#vava {
+    left: 830px;
+    top: 250px;
+    background-image: url(../imagens/valorant.jpg);
 }
 
-.big_img {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-    max-width: 500px;
-    max-height: 300px;
-    border-radius: 20px;
-}*/
+.img_menor {
+    transform: translate(-10px, -10px);
+    border-radius: 30px;
+    width: 180px;
+    height: 250px;
+}
 
 #voltar {
     border-radius: 10px;

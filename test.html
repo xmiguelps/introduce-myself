@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste</title>
-    <style>
-        div {
-            width: 200px;
-            height: 100px;
-            background-color: blue;
-            transition: width 2s, height 4s;
+</head>
+<style>
+    #box {
+        width: 200px;
+        height: 200px;
+        border: solid black 3px;
+        background-color: yellow;
+    }
+</style>
+<body>
+    <div onclick="mudar()" id="box"></div>
+    <script>
+        function mudar() {
+            let box = document.getElementById('box')
+            let corAtual = window.getComputedStyle(box).backgroundColor
+
+            if (corAtual === "rgb(255, 255, 0)") {
+                azul(box)
+            } else if (corAtual === "rgb(0, 0, 255)") {
+                amarelo(box)    
+            }
         }
 
-        div:active {
-            background-color: red;
-            width: 400px;
-            height: 200px;
+        function amarelo(box) {
+            box.style.backgroundColor = "yellow"
         }
-    </style>
-</head>
-<body>
-    <div></div>
+
+        function azul(box) {
+            box.style.backgroundColor = "blue"
+        }
+    </script>
 </body>
 </html>
