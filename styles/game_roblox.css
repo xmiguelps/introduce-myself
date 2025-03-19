@@ -43,6 +43,7 @@ p#tutorial {
 #games {
     margin-top: 50px;
     padding: 10px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -59,7 +60,7 @@ p#tutorial {
     background-size: 260px;
     background-position: center;
     background-repeat: no-repeat;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 #hk {
@@ -69,9 +70,14 @@ p#tutorial {
 }
 
 #roblox { /*tentar deixar centralizado e alterado pro lado (com todos) */
-    left: 590px;
-    top: 250px;
-    background-image: url(../imagens/roblox.png);
+    transition: all 1s;
+    width: 450px;
+    height: 270px;
+    border-radius: 20px;
+    background-size: 530px;
+    left: 290px;
+    top: 100px;
+    background-image: url(../imagens/roblox-maior.webp);
 }
 
 #vava {
@@ -82,6 +88,7 @@ p#tutorial {
 
 .img_menor {
     transition: all 1s;
+    display: none;
     transform: translate(-10px, -10px);
     border-radius: 30px;
     width: 180px;

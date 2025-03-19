@@ -43,6 +43,7 @@ p#tutorial {
 #games {
     margin-top: 50px;
     padding: 10px;
+    width: 1000px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -59,13 +60,18 @@ p#tutorial {
     background-size: 260px;
     background-position: center;
     background-repeat: no-repeat;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 #hk {
-    background-image: url(../imagens/hollow-knight.jpg);
-    left: 350px;
-    top: 250px;
+    transition: all 1s;
+    width: 450px;
+    height: 270px;
+    border-radius: 20px;
+    background-size: 530px;
+    background-image: url(../imagens/hollow-knight-maior.jpg);
+    left: 50px;
+    top: 100px;
 }
 
 #roblox { /*tentar deixar centralizado e alterado pro lado (com todos) */
@@ -82,6 +88,7 @@ p#tutorial {
 
 .img_menor {
     transition: all 1s;
+    display: none;
     transform: translate(-10px, -10px);
     border-radius: 30px;
     width: 180px;
