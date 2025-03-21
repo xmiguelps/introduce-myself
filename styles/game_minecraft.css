@@ -75,7 +75,7 @@ p#tutorial {
     background-image: url(../imagens/roblox.png);
 }
 
-#vava {
+#minecraft {
     transition: all 1s;
     width: 450px;
     height: 270px;
@@ -83,16 +83,18 @@ p#tutorial {
     background-size: 530px;
     left: 530px;
     top: 100px;
-    background-image: url(../imagens/valorant-maior.webp);
+    background-image: url(../imagens/minecraft-maior.webp);
 }
 
 .img_menor {
-    transition: all 1s;
-    display: none;
     transform: translate(-10px, -10px);
     border-radius: 30px;
     width: 180px;
     height: 250px;
+}
+
+#img_minecraft {
+    display: none;
 }
 
 #voltar {

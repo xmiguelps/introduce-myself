@@ -80,19 +80,21 @@ p#tutorial {
     background-image: url(../imagens/roblox-maior.webp);
 }
 
-#vava {
+#minecraft {
     left: 830px;
     top: 250px;
     background-image: url(../imagens/valorant.jpg);
 }
 
 .img_menor {
-    transition: all 1s;
-    display: none;
     transform: translate(-10px, -10px);
     border-radius: 30px;
     width: 180px;
     height: 250px;
+}
+
+#img_roblox {
+    display: none;
 }
 
 #voltar {

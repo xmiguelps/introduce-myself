@@ -23,14 +23,14 @@ function click_nav_roblox() {
 }
 //--------------------------------------------------------------------
 
-function click_nav_vava() {
+function click_nav_minecraft() {
     let add_style = document.getElementById('add_style')
-    let box = document.getElementById('vava')
-    let img = document.getElementById('img_vava')
+    let box = document.getElementById('minecraft')
+    let img = document.getElementById('img_minecraft')
     let background_atual = window.getComputedStyle(box).backgroundImage 
-    if (background_atual.includes("valorant.jpg")) {
-        add_style.href = "../styles/game_valorant.css"
-    } else if (background_atual.includes("valorant-maior.webp")) {
+    if (background_atual.includes("minecraft.jpg")) {
+        add_style.href = "../styles/game_minecraft.css"
+    } else if (background_atual.includes("minecraft-maior.webp")) {
         back_nav(add_style)
     }
 }

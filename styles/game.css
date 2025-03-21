@@ -74,14 +74,13 @@ p#tutorial {
     background-image: url(../imagens/roblox.png);
 }
 
-#vava {
+#minecraft {
     left: 830px;
     top: 250px;
-    background-image: url(../imagens/valorant.jpg);
+    background-image: url(../imagens/minecraft.jpg);
 }
 
 .img_menor {
-    transition: all 1s;
     transform: translate(-10px, -10px);
     border-radius: 30px;
     width: 180px;

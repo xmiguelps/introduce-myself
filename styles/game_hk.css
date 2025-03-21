@@ -80,15 +80,17 @@ p#tutorial {
     background-image: url(../imagens/roblox.png);
 }
 
-#vava {
+#minecraft {
     left: 830px;
     top: 250px;
     background-image: url(../imagens/valorant.jpg);
 }
 
-.img_menor {
-    transition: all 1s;
+#img_hk {
     display: none;
+}
+
+.img_menor {
     transform: translate(-10px, -10px);
     border-radius: 30px;
     width: 180px;
