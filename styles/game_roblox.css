@@ -27,11 +27,11 @@ section {
     min-height: 550px;
 }
 
-h1 {
+section > h1 {
     text-align: center;
 }
 
-p {
+section > p {
     margin-top: 20px;
     text-indent: 20px;
 }
