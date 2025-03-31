@@ -1,0 +1,11 @@
+na tela do mundo do descanso, coloca mini porta que abre e fecha pra ir a outras partes do descanso, na direita, em cima, na esquerda e em baixo
+
+texto dando boas vindas ao mundo do descanso e um texto tipo "ja q cada pessoa descansa de um jeito", existem aqui, varios mundos para diversos tipos de pessoas descansarem
+
+partes {
+    café normal(com easter egg do café do sans)
+
+    landscape
+
+    paisagem com chuva(talvez em uma cidade)
+}
