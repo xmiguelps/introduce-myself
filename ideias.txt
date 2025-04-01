@@ -9,3 +9,5 @@ partes {
 
     paisagem com chuva(talvez em uma cidade)
 }
+
+icone de caixa de som para musiquinha no ngc do café no canto inferior direito

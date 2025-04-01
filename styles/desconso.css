@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/descanso.gif);
+    background-size: contain;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main > h1 {
+    background-color: #2c230f;
+    color: white;
+    padding: 15px;
+    height: 55px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > p {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #2c230f;
+    color: white;
+    padding: 15px;
+    width: 600px;
+    border-radius: 0px 0px 10px 10px;   
+    height: 58px;
+}
