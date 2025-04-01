@@ -12,9 +12,25 @@
         border: solid black 3px;
         background-color: yellow;
     }
+
+    audio {
+        display: none;
+    }
+
+    #audio {
+        background-image: url(/imagens/caixa-de-som.png);
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+    }
+
 </style>
 <body>
     <div onclick="mudar()" id="box"></div>
+    <div id="audio" onclick="ativar()">
+        <audio controls src="audios/musica.mp3" type="audio/mpeg"></audio>
+    </div>
+
     <script>
         function mudar() {
             let box = document.getElementById('box')
@@ -33,6 +49,10 @@
 
         function azul(box) {
             box.style.backgroundColor = "blue"
+        }
+
+        function ativar() {
+            
         }
     </script>
 </body>
