@@ -16,19 +16,12 @@
     audio {
         display: none;
     }
-
-    #audio {
-        background-image: url(/imagens/caixa-de-som.png);
-        background-size: cover;
-        width: 100px;
-        height: 100px;
-    }
-
 </style>
 <body>
     <div onclick="mudar()" id="box"></div>
-    <div id="audio" onclick="ativar()">
-        <audio controls src="audios/musica.mp3" type="audio/mpeg"></audio>
+    <div>
+        <audio controls src="audios/musica.mp3" type="audio/mpeg" id="audio"></audio>
+        <label for="audio"><img onclick="ativar()" src="imagens/caixa-de-som.png" alt=""></label>
     </div>
 
     <script>
@@ -52,7 +45,12 @@
         }
 
         function ativar() {
-            
+            let audio = document.getElementById('audio')
+            if (audio.paused) {
+                audio.play()
+            } else if (audio.play) {
+                audio.pause()
+            }
         }
     </script>
 </body>
