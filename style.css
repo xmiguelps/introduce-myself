@@ -84,7 +84,7 @@ footer {
     box-shadow: 1px 1px 20px 10px rgb(83, 83, 83);
     transition: 0.5s;
     height: 80px;
-} 
+}
 
 .program {
     position: absolute;
@@ -118,4 +118,17 @@ footer {
     box-shadow: 1px 1px 20px 7px rgb(230, 213, 61);
     transition: 0.5s;
     height: 80px;
+}
+
+.descanso {
+    position: absolute;
+    top: 1%;
+    left: 78%;
+    color: rgba(69, 128, 216, 0.425);
+    text-decoration: none;
+}
+
+.descanso:hover {
+    font-style: italic;
+    text-decoration: underline;
 }
