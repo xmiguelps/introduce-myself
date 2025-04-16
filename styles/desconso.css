@@ -50,10 +50,9 @@ main > div#placa {
 
 .porta {
     position: absolute;
-    top: 50%;
-    left: 97%;
     transform: translate(-50%, -50%);
-    box-shadow: 1px 1px 10px 5px lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 1px 1px 15px 7px lightgoldenrodyellow;
     height: 80px;
     width: 50px;
     background-image: url(../imagens/porta1.png);
@@ -65,7 +64,21 @@ main > div#placa {
     background-size: cover;
     width: 70px;
     height: 90px;
-    left: 96%;
+}
+
+#porta-1 {
+    top: 50%;
+    left: 97%;
+}
+
+#porta-2 {
+    top: 50%;
+    left: 3%;
+}
+
+#porta-3 {
+    top: 93%;
+    left: 50%;
 }
 
 main > #caixa-de-som {
